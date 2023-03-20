@@ -9,44 +9,44 @@ body{
     width: 960px;
     margin: 0 auto;
 }
-#fejlec{
+#header{
     width: 960px;
     height: 100px;
     background: url('kek_eg.jpg');
 }
-#fejlec h1{
+#header h1{
     font-family: 'Audiowide', cursive;
     font-size: 2.5em;
     text-align: center;
     color: yellow;
     letter-spacing: 0.4em;
 }
-#fejlec h2{
+#header h2{
     font-family: 'Audiowide', cursive;
     font-size: 1.1em;
     text-align: center;
     font-variant: small-caps;
 }
-#menu{
+#main{
     width: 960px;
     height: 40px;
     background: url('menu_hatter.png');
     color: white;
     font-family: 'Audiowide', cursive;
 }
-#menu ul{
+#main ul{
     margin: 0;
     padding: 10px 30px;
 }
 
-#menu li{
+#main li{
     display: inline;
     list-style-type: none;
     padding: 0 15px;
 }
-#menu a,
-#menu a:link,
-#menu a:visited{
+#main a,
+#main a:link,
+#main a:visited{
     color: #ddd;
 }
 #menu a:hover{
