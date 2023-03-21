@@ -9,60 +9,63 @@ body{
     width: 960px;
     margin: 0 auto;
 }
-#header{
+header{
     width: 960px;
     height: 100px;
     background: url('kek_eg.jpg');
 }
-#header h1{
+header h1{
     font-family: 'Audiowide', cursive;
     font-size: 2.5em;
     text-align: center;
     color: yellow;
     letter-spacing: 0.4em;
 }
-#header h2{
+header h2{
     font-family: 'Audiowide', cursive;
     font-size: 1.1em;
     text-align: center;
     font-variant: small-caps;
 }
-#main{
+main{
     width: 960px;
     height: 40px;
     background: url('menu_hatter.png');
     color: white;
     font-family: 'Audiowide', cursive;
 }
-#main ul{
+main ul{
     margin: 0;
     padding: 10px 30px;
 }
 
-#main li{
+main li{
     display: inline;
     list-style-type: none;
     padding: 0 15px;
 }
-#main a,
-#main a:link,
-#main a:visited{
-    color: #ddd;
+main a,
+main a:link,
+main a:visited
+{
+    color: rgb(221, 221, 221);
 }
-#menu a:hover{
+main a:hover{
     text-decoration: underline;
 }
-#menu a.kivalasztott{
+
+main a.kivalasztott
+{
     color: yellow;
 }
-#tartalom{
+main{
     width: 960px;
     min-height: 400px;
     background-color: white;
     padding-bottom: 20px;
 }
 
-#tartalom h1{
+main h1{
     margin: 0;
     padding: 1em;
 }
@@ -89,14 +92,15 @@ table{
     border-collapse: collapse;
 }
 th,td{
-    border: 1px dotted #666;
+    border: 1px dotted rgb(42, 94, 163);
 }
 th{
     text-align: center;
     font-size: 1.1em;
     font-weight: bold;
 }
-fieldset{
+fieldset
+{
     margin: 0 20px;
     padding: 20px;
 }
