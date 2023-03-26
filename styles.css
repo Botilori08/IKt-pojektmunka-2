@@ -1,47 +1,56 @@
 @import url(http://fonts.googleapis.com/css?family=Audiowide&subset=latin,latin-ext);
-body{
+body
+{
     font-family: Arial, sans-serif;
     font-size: 13px;
     background-image: url(images.jfif);
     margin: 0;
 
 }
-main{
+main
+{
     width: 960px;
     margin: 0 auto;
 }
-header{
+header
+{
     width: 960px;
     height: 100px;
     background-color:darkblue;
     background-repeat: no-repeat;
     
 }
-header h1{
+header h1
+{
     font-family: 'Courier New', Courier, monospace, Times, serif;
     font-size: 2.5em;
     text-align: center;
     color: aqua;
     letter-spacing: 0.4em;
 }
-header h2{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1.1em;
+header h2
+{
+    font-family:'Courier New', Times, serif;
+    font-size: 14px;
     text-align: right;
 }
-main{
+main
+{
     width: 960px;
-    height: 40px;
-    background: url('menu_hatter.png');
-    color: white;
-    font-family: 'Audiowide', cursive;
+    height: 100 px;
+    background-color: rgb(4, 4, 96);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(12, 163, 201);
 }
-main ul{
+main ul
+{
     margin: 0;
     padding: 10px 30px;
 }
 
-main li{
+main li
+{
     display: inline;
     list-style-type: none;
     padding: 0 15px;
@@ -50,51 +59,57 @@ main a,
 main a:link,
 main a:visited
 {
-    color: rgb(221, 221, 221);
+    color: rgb(59, 213, 255);
 }
-main a:hover{
-    text-decoration: underline;
+main a:hover
+{
+    color: rgb(67, 204, 33);
 }
 
-main a.kivalasztott
+main
 {
-    color: yellow;
-}
-main{
     width: 960px;
     min-height: 400px;
-    background-color: white;
+    background-color: rgb(4, 4, 96);
     padding-bottom: 20px;
 }
 
-main h1{
+main h1
+{
     margin: 0;
     padding: 1em;
 }
-.kep{
-    float: right;
+.kep
+{
+    float: left;
     padding-right: 20px;
 }
-.kep img{
+.kep img
+{
     width: 200px;
 }
-dl{
+dl
+{
     margin: 15px;
 }
-dt{
+dt
+{
     font-size: 1.3em;
     font-weight: bold;
     padding: 10px 0;
 }
-dd{
+dd
+{
     margin-left: 50px;
 }
-table{
+table
+{
     margin: 10px auto;
     border-collapse: collapse;
 }
-th,td{
-    border: 1px dotted rgb(42, 94, 163);
+th,td
+{
+    border: 3px solid rgb(13, 155, 25);
 }
 th{
     text-align: center;
@@ -105,4 +120,18 @@ fieldset
 {
     margin: 0 20px;
     padding: 20px;
+}
+footer a,
+footer a:link,
+footer a:visited
+{
+    color: rgb(59, 255, 242);
+}
+footer a:hover
+{
+    text-decoration: underline;
+}
+footer a.kivalasztott
+{
+    color: darkblue;
 }
