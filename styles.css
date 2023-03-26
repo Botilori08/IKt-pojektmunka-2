@@ -14,7 +14,7 @@ main
 }
 header
 {
-    width: 960px;
+    width: 1300px;
     height: 100px;
     background-color:darkblue;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ main a:hover
 
 main
 {
-    width: 960px;
+    width: 1300px;
     min-height: 400px;
     background-color: rgb(4, 4, 96);
     padding-bottom: 20px;
