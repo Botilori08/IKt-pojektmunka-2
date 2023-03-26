@@ -2,30 +2,32 @@
 body{
     font-family: Arial, sans-serif;
     font-size: 13px;
-    background-color: #99a;
+    background-image: url(images.jfif);
     margin: 0;
+
 }
-#oldal{
+main{
     width: 960px;
     margin: 0 auto;
 }
 header{
     width: 960px;
     height: 100px;
-    background: url('kek_eg.jpg');
+    background-color:darkblue;
+    background-repeat: no-repeat;
+    
 }
 header h1{
-    font-family: 'Audiowide', cursive;
+    font-family: 'Courier New', Courier, monospace, Times, serif;
     font-size: 2.5em;
     text-align: center;
-    color: yellow;
+    color: aqua;
     letter-spacing: 0.4em;
 }
 header h2{
-    font-family: 'Audiowide', cursive;
+    font-family:'Times New Roman', Times, serif;
     font-size: 1.1em;
-    text-align: center;
-    font-variant: small-caps;
+    text-align: right;
 }
 main{
     width: 960px;
