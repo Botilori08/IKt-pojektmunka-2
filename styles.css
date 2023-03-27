@@ -60,6 +60,7 @@ main a:link,
 main a:visited
 {
     color: rgb(59, 213, 255);
+    text-transform: none;
 }
 main a:hover
 {
