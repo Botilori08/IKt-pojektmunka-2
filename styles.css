@@ -5,6 +5,7 @@ body
     font-size: 13px;
     background-image: url(images.jfif);
     margin: 0;
+    background-repeat: repeat;
 
 }
 main
@@ -52,7 +53,6 @@ main ul
 main li
 {
     display: inline;
-    list-style-type: none;
     padding: 0 15px;
 }
 main a,
@@ -60,7 +60,6 @@ main a:link,
 main a:visited
 {
     color: rgb(59, 213, 255);
-    text-transform: none;
 }
 main a:hover
 {
@@ -135,4 +134,13 @@ footer a:hover
 footer a.kivalasztott
 {
     color: darkblue;
+}
+footer
+{
+    color: aqua;
+}
+nav a
+{
+    text-decoration-line: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
