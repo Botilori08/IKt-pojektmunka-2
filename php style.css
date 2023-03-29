@@ -48,3 +48,16 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+header a
+{
+    color: white;
+    text-decoration-line: none;
+}
+header a :hover
+{
+    text-decoration-line: underline;
+}
+nav
+{
+    background-color: #007bff;
+}
