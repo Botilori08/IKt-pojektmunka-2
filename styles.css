@@ -15,7 +15,7 @@ main
 }
 header
 {
-    width: 1300px;
+    width: 1700px;
     height: 100px;
     background-color:darkblue;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ main a:hover
 
 main
 {
-    width: 1300px;
+    width: 1700px;
     min-height: 400px;
     background-color: rgb(4, 4, 96);
     padding-bottom: 20px;
@@ -143,4 +143,8 @@ nav a
 {
     text-decoration-line: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav
+{
+    width: 1700px;
 }
