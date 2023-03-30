@@ -7,11 +7,7 @@ body
     background-repeat: repeat;
 
 }
-main
-{
-    width: 960px;
-    margin: 0 auto;
-}
+
 header
 {
     width: 1700px;
@@ -44,6 +40,7 @@ main
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     color: rgb(12, 163, 201);
+    margin: auto;
 }
 main ul
 {
@@ -54,7 +51,7 @@ main ul
 main li
 {
     display: inline;
-    padding: 0 15px;
+    padding: 0px;
 }
 main a,
 main a:link,
