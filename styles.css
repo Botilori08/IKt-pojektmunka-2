@@ -11,12 +11,31 @@ body
 header
 {
     width: 1700px;
-    height: 200px;
+    height: 120px;
     background-color:darkblue;
     background-repeat: no-repeat;
     margin: auto;
     
 }
+header a,
+header a:link,
+header a:visited
+{
+    color: rgb(59, 213, 255);
+}
+header a:hover
+{
+    color: rgb(67, 204, 33);
+}
+
+header
+{
+    width: 1700px;
+    min-height: 400px;
+    background-color: rgb(4, 4, 96);
+    padding-bottom: 20px;
+}
+
 header h1
 {
     font-family: 'Courier New', Courier, monospace, Times, serif;
@@ -128,11 +147,6 @@ footer a.kivalasztott
 footer
 {
     color: aqua;
-}
-nav a
-{
-    text-decoration-line: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav
 {
