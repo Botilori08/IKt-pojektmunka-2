@@ -2,11 +2,12 @@ body
 {
     font-family: Arial, sans-serif;
     font-size: 13px;
-    background-image: url(images.jfif);
+    background-image: url(photo-1542831371-29b0f74f9713.jfif);
     margin: 0;
     background-repeat: repeat;
-
+    background-size: 100%;
 }
+
 
 header
 {
@@ -22,6 +23,7 @@ header a:link,
 header a:visited
 {
     color: rgb(59, 213, 255);
+    text-decoration: none;
 }
 header a:hover
 {
@@ -31,7 +33,7 @@ header a:hover
 header
 {
     width: 1700px;
-    min-height: 400px;
+    min-height: 120px;
     background-color: rgb(4, 4, 96);
     padding-bottom: 20px;
 }
@@ -69,7 +71,7 @@ main ul
 
 main li
 {
-    display: inline;
+    display: block;
     padding: 0px;
 }
 main a,
