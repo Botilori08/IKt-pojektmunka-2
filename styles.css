@@ -1,0 +1,147 @@
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-image: url(images.jfif);
+    margin: 0;
+    background-repeat: repeat;
+
+}
+
+header
+{
+    width: 1700px;
+    height: 200px;
+    background-color:darkblue;
+    background-repeat: no-repeat;
+    margin: auto;
+    
+}
+header h1
+{
+    font-family: 'Courier New', Courier, monospace, Times, serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: aqua;
+    letter-spacing: 0.4em;
+}
+header h2
+{
+    font-family:'Courier New', Times, serif;
+    font-size: 18px;
+    text-align: right;
+    color: aqua;
+}
+main
+{
+    width: 960px;
+    height: 400 px;
+    background-color: rgb(4, 4, 96);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(12, 163, 201);
+    margin: auto;
+}
+main ul
+{
+    margin: 0;
+    padding: 10px 30px;
+}
+
+main li
+{
+    display: inline;
+    padding: 0px;
+}
+main a,
+main a:link,
+main a:visited
+{
+    color: rgb(59, 213, 255);
+}
+main a:hover
+{
+    color: rgb(67, 204, 33);
+}
+
+main
+{
+    width: 1700px;
+    min-height: 400px;
+    background-color: rgb(4, 4, 96);
+    padding-bottom: 20px;
+}
+
+main h1
+{
+    margin: 0;
+    padding: 1em;
+}
+
+dl
+{
+    margin: 15px;
+}
+dt
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px 0;
+}
+dd
+{
+    margin-left: 50px;
+}
+table
+{
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+th,td
+{
+    border: 3px solid rgb(13, 155, 25);
+}
+th{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+fieldset
+{
+    margin: 0 20px;
+    padding: 20px;
+}
+footer a,
+footer a:link,
+footer a:visited
+{
+    color: rgb(59, 255, 242);
+}
+footer a:hover
+{
+    text-decoration: underline;
+}
+footer a.kivalasztott
+{
+    color: darkblue;
+}
+footer
+{
+    color: aqua;
+}
+nav a
+{
+    text-decoration-line: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav
+{
+    width: 1700px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 0;
+}
+main h2
+{
+    margin: 0;
+}
