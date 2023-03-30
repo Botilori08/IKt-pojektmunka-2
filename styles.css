@@ -141,3 +141,7 @@ nav
     margin: auto;
     margin-top: 0;
 }
+main h2
+{
+    margin: 0;
+}
