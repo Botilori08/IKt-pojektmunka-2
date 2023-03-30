@@ -8,37 +8,29 @@ body
     background-size: 100%;
 }
 
-
-header
-{
-    width: 1700px;
-    height: 160px;
-    background-color:rgb(0, 76, 139);
-    background-repeat: no-repeat;
-    margin: auto;
-    
-}
 header a,
-header a:link,
 header a:visited
 {
     color: rgb(59, 213, 255);
     text-decoration: none;
     font-size: 18px;
-    display: inline;
-
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header a:hover
 {
-    color: rgb(67, 204, 33);
+    color: rgb(157, 255, 36);
 }
 
 header
 {
-    width: 1700px;
-    min-height: 120px;
+    width: auto;
+    min-height: 50px;
     background-color: rgb(0, 76, 139);
-    padding-bottom: 20px;
+    margin: auto;
 }
 
 header h1
@@ -53,28 +45,17 @@ header h2
 {
     font-family:'Courier New', Times, serif;
     font-size: 18px;
-    text-align: center;
+    text-align: right;
     color: aqua;
-}
-main
-{
-    width: 960px;
-    height: 400 px;
-    background-color: rgb(4, 4, 96);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    color: rgb(12, 163, 201);
-    margin: auto;
 }
 main ul
 {
-    margin: 0;
-    padding: 10px 30px;
+    margin-left: 3em;
 }
 
 main li
 {
-    padding: 0px;
+    padding-left: 0em;
 }
 main a,
 main a:link,
@@ -90,17 +71,18 @@ main a:hover
 
 main
 {
-    width: 1700px;
+    width: 1800px;
     min-height: 400px;
+    height: 400 px;
     background-color: rgb(4, 4, 96);
-    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(12, 163, 201);
+    margin: auto;
+    padding: 2px;
 }
 
-main h1
-{
-    margin: 0;
-    padding: 1em;
-}
+
 
 dl
 {
@@ -162,5 +144,13 @@ nav
 }
 main h2
 {
-    margin: 0;
+    padding-left: 1em;
+}
+main p
+{
+    padding-left: 1em;
+}
+main h1
+{
+    padding-left: 1em;
 }
