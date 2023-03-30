@@ -2,37 +2,25 @@ body
 {
     font-family: Arial, sans-serif;
     font-size: 13px;
-    background-image: url(photo-1542831371-29b0f74f9713.jfif);
+    background-image: url(images.jfif);
     margin: 0;
     background-repeat: repeat;
-    background-size: 100%;
-}
 
-header a,
-header a:visited
-{
-    color: rgb(59, 213, 255);
-    text-decoration: none;
-    font-size: 18px;
-    display: inline-block;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-header a:hover
+main
 {
-    color: rgb(157, 255, 36);
+    width: 960px;
+    margin: 0 auto;
 }
-
 header
 {
-    width: auto;
-    min-height: 50px;
-    background-color: rgb(0, 76, 139);
+    width: 1700px;
+    height: 200px;
+    background-color:darkblue;
+    background-repeat: no-repeat;
     margin: auto;
+    
 }
-
 header h1
 {
     font-family: 'Courier New', Courier, monospace, Times, serif;
@@ -48,21 +36,31 @@ header h2
     text-align: right;
     color: aqua;
 }
+main
+{
+    width: 960px;
+    height: 400 px;
+    background-color: rgb(4, 4, 96);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(12, 163, 201);
+}
 main ul
 {
-    margin-left: 3em;
+    margin: 0;
+    padding: 10px 30px;
 }
 
 main li
 {
-    padding-left: 0em;
+    display: inline;
+    padding: 0 15px;
 }
 main a,
 main a:link,
 main a:visited
 {
     color: rgb(59, 213, 255);
-    
 }
 main a:hover
 {
@@ -71,18 +69,17 @@ main a:hover
 
 main
 {
-    width: 1800px;
+    width: 1700px;
     min-height: 400px;
-    height: 400 px;
-    background-color: rgba(4, 4, 96, 0.358);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 19px;
-    color: rgb(97, 223, 255);
-    margin: auto;
-    padding: 2px;
+    background-color: rgb(4, 4, 96);
+    padding-bottom: 20px;
 }
 
-
+main h1
+{
+    margin: 0;
+    padding: 1em;
+}
 
 dl
 {
@@ -135,22 +132,15 @@ footer
 {
     color: aqua;
 }
+nav a
+{
+    text-decoration-line: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 nav
 {
     width: 1700px;
     background-color: blue;
     margin: auto;
     margin-top: 0;
-}
-main h2
-{
-    padding-left: 1em;
-}
-main p
-{
-    padding-left: 1em;
-}
-main h1
-{
-    padding-left: 1em;
 }
