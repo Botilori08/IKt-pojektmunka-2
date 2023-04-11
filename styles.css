@@ -4,7 +4,7 @@ body
     font-size: 13px;
     background-image: url(./photo-1542831371-29b0f74f9713.jfif);
     margin: 0;
-    background-repeat: repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
 }
 
@@ -172,4 +172,16 @@ main h1
     height: 50%;
     width: 50%;
     margin-left: 2em;
+}
+#I2
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 70px;
+}
+#PHPimg
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 200px;
 }
