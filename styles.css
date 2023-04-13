@@ -171,8 +171,9 @@ main h1
 .kep
 {
     height: 50%;
-    width: 50%;
+    width: 35%;
     margin-left: 2em;
+   
 }
 #I2
 {
@@ -188,7 +189,7 @@ main h1
 }
 #I3
 {
-    width: 50%;
+    width: 35%;
     height: 50%;
     margin-left: 100px;
 }
