@@ -75,17 +75,18 @@ main
     width: 1800px;
     min-height: 400px;
     height: 400 px;
-    background-color: rgba(4, 4, 96, 0.358);
+    background-color: rgba(16, 16, 71, 0.89);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 19px;
-    color: rgb(97, 223, 255);
+    font-size: 20px;
+    color: rgb(143, 229, 255);
     margin: auto;
     padding: 2px;
 }
 img
 {
     width: 50%;
-    height: 50%;
+    height: 50
+    %;
 }
 
 
