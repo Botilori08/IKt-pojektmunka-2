@@ -17,12 +17,12 @@
     <nav></nav>
     <main>
         <h1 class="cim">ASP</h1>
-        <h1><u>Mi az az ASP?</u></h1>
-        <p>Az ASP (Application Service Provider) modell lényege, hogy a felhasználó nem egy számítógépes programot vásárol meg, amit a helyi számítógépre telepít, hanem egy távoli szolgáltató központtól szolgáltatásként veszi igénybe az alkalmazásokat, internetböngésző használatával.</p>
-        <h2><u>ASP .NET más platformokon</u></h2>
-        <p>Meglepő de az ASP .NET alkalmazásainkat nem csak Microsoft platformokon futtathatjuk. A Mono (C# szabad forrású implementációja), Apache webszerveren mod_mono modullal teljesen képes ASP .NET web alkalmazások futtatására. Természetesen ez nem tökéletes, ha platform specifikus funkciókat használunk.
+        <h1>Mi az az ASP?</h1>
+        <p>Az ASP(Application Service Provider) modell lényege, hogy a felhasználó nem egy számítógépes programot vásárol meg, amit a helyi számítógépre telepít, hanem egy távoli szolgáltató központtól szolgáltatásként veszi igénybe az alkalmazásokat, internetböngésző használatával.</p>
+        <h2>ASP.NET más platformokon</h2>
+        <p>Meglepő de az ASP.NET alkalmazásainkat nem csak Microsoft platformokon futtathatjuk. A Mono (C# szabad forrású implementációja), Apache webszerveren mod_mono modullal teljesen képes ASP.NET web alkalmazások futtatására. Természetesen ez nem tökéletes, ha platform specifikus funkciókat használunk.
 
-            A leírás során egy általam elkészített egyszerű alkalmazáson keresztül igyekszem bemutatni az ASP .NET -et. Ez egy kvíz program, melybe miután bejelentkeztünk, kitölthetjük a tesztet, vagy megnézhetjük az addigi eredményeket. Megértéséhez a következő előismeretek szükségesek:
+            A leírás során egy általam elkészített egyszerű alkalmazáson keresztül igyekszem bemutatni az ASP.NET -et. Ez egy kvíz program, melybe miután bejelentkeztünk, kitölthetjük a tesztet, vagy megnézhetjük az addigi eredményeket. Megértéséhez a következő előismeretek szükségesek:
             <img class="kepjobb" src="./screenshot-razor-editor-vs.png">
         <ol>
                 <li>HTML</li>
@@ -32,19 +32,19 @@
         </ol>
         </p>
        
-        <h2><u>A .NET Technológia elemei</u></h2>
+        <h2>A .NET Technológia elemei</h2>
         
         <p>A .NET egy "rétegzett" architektúra. Legalsó rétege az operációs rendszer réteg, amelyből a .NET absztrahál. Erre épül a futtatási környezet, amely a szemétgyűjtésért (garbage collection), biztnságért, a Just-in-time fordításért felelős. Efölötti harmadik réteg az osztálykönyvtár réteg. Ide tartoznak a Windows Form, ASP.NET, WEB Formok, ADO.NET és a többiek.</p>
         
-        <h2 class="aspnet"><u>ASP.NET alkalmazása</u></h2>
+        <h2 class="aspnet">ASP.NET alkalmazása</h2>
         <img class="kepbal" src="./asp pics.jfif">
-        <p>Az ASP .NET az ASP továbbfejlesztett változata .NET környezetben. Jóllehet az ASP .NET nevét az ASP -ről kapta, a kettő sokban különbözik egymástól. A Microsoft a CLR (Common Language Runtime) -re alapozva - mely minden minden Microsoft .NET alkalmazásban közös - újratervezte az ASP .NET -t. ASP .NET kódokat most már bármely, a .NET keretrendszer által támogatott nyelven írhatunk. A legtöbb alkalmazás C#, Viusual Basic .NET vagy JScript .NET nyelven íródik, de használatosak szabad forrású nyelvek is, mint a Perl vagy a Python. Az ASP .NET előnyt élvez más script alapú technológiákkal szemben, mert a szerver oldali kód egy vagy több DLL -é fordul le.
+        <p>Az ASP.NET az ASP továbbfejlesztett változata .NET környezetben. Jóllehet az ASP.NET nevét az ASP-ről kapta, a kettő sokban különbözik egymástól. A Microsoft a CLR (Common Language Runtime) -re alapozva - mely minden minden Microsoft .NET alkalmazásban közös - újratervezte az ASP .NET -t. ASP .NET kódokat most már bármely, a .NET keretrendszer által támogatott nyelven írhatunk. A legtöbb alkalmazás C#, Viusual Basic .NET vagy JScript .NET nyelven íródik, de használatosak szabad forrású nyelvek is, mint a Perl vagy a Python. Az ASP .NET előnyt élvez más script alapú technológiákkal szemben, mert a szerver oldali kód egy vagy több DLL -é fordul le.
 
-            Az ASP .NET igyekszik leegyszerűsíteni a fejlesztők átállását hagyományos windows alkalmazások írásáról webes fejlesztésekre az által, hogy az oldalak fejlesztése során olyan vezérlő szerkezeteket használhatnak mint a hagyományos windows felhasználói felületeknél. Minden webes vezérlő elem, mint például egy gomb, vagy címke, nagyon hasonlóan viselkedik mint a Windows -os megfelelője: értéket adhatunk az attribútumainak, illetve reagálhatunk az általa kiváltott eseményekre.
+            Az ASP.NET igyekszik leegyszerűsíteni a fejlesztők átállását hagyományos windows alkalmazások írásáról webes fejlesztésekre az által, hogy az oldalak fejlesztése során olyan vezérlő szerkezeteket használhatnak mint a hagyományos windows felhasználói felületeknél. Minden webes vezérlő elem, mint például egy gomb, vagy címke, nagyon hasonlóan viselkedik mint a Windows -os megfelelője: értéket adhatunk az attribútumainak, illetve reagálhatunk az általa kiváltott eseményekre.
             
-            Az ASP .NET arra buzdítja a programozókat, hogy az alkalmazásaikat az esemény vezérelt GUI paradigma alapján fejlesszék a hagyományos webes script környezetekkel szemben, mint az ASP, vagy a PHP. A keretrendszer kombinálni igyekszik létező technológiákat - JavaScript - a belső komponensekkel - Viewstate - hogy állandóságot szimuláljon egy alapvetően állapot nélküli webes környezetbe.</p>
+            Az ASP.NET arra buzdítja a programozókat, hogy az alkalmazásaikat az esemény vezérelt GUI paradigma alapján fejlesszék a hagyományos webes script környezetekkel szemben, mint az ASP, vagy a PHP. A keretrendszer kombinálni igyekszik létező technológiákat - JavaScript - a belső komponensekkel - Viewstate - hogy állandóságot szimuláljon egy alapvetően állapot nélküli webes környezetbe.</p>
             
-        <h2><u>A .NET virtuális gép</u></h2>
+        <h2>A .NET virtuális gép</h2>
         <p>A .NET futtató-környezete a Common Language Runtime (CLR). A CLR alapja a .NET virtuális gépe, ami a CIL (Common Intermediate Language) szabványban rögzítettek szerint dolgozik. A CLR a Javával szemben előírja a CIL parancsok Just-In-Time fordítását, ezért a hatékonyság romlása itt kisebb lesz valószínűleg, mint a Java középmezőnyében.
 
             Ahhoz, hogy a különböző programozási nyelvek együttműködhessenek, a közös utasításkészlet (CIL) rögzítésén túl a típusrendszereket is egységesíteni kellett. Ezt tették meg a CTS (Common Type System) specfikációval. Ezzel sikerült elérni olyanfajta rugalmasságot, hogy egy Visual BASIC.NET nyelven írt osztálytól C# nyelven örököljünk, C# nyelven készítsük el a származtatott osztályt.</p>
