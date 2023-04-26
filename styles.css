@@ -8,24 +8,24 @@ body
     background-size: 100%;
 }
 
-header a,
-header a:visited
+nav a,
+nav a:visited
 {
     color: rgb(59, 213, 255);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     display: inline-block;
     text-align: center;
     margin: 10px;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-header a:hover
+nav a:hover
 {
     color: rgb(157, 255, 36);
 }
 
-header
+nav
 {
     width: auto;
     min-height: 50px;
@@ -33,7 +33,7 @@ header
     margin: auto;
 }
 
-header h1
+nav h1
 {
     font-family: 'Courier New', Courier, monospace, Times, serif;
     font-size: 2.5em;
@@ -41,7 +41,7 @@ header h1
     color: aqua;
     letter-spacing: 0.4em;
 }
-header h2
+nav h2
 {
     font-family:'Courier New', Times, serif;
     font-size: 18px;
@@ -74,10 +74,9 @@ main
 {
     width: 1800px;
     min-height: 400px;
-    height: 400 px;
     background-color: rgba(16, 16, 71, 0.89);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     color: rgb(143, 229, 255);
     margin: auto;
     padding: 2px;
@@ -101,7 +100,7 @@ dt
 {
     font-size: 1.3em;
     font-weight: bold;
-    padding: 10px 0;
+    padding: 10px ;
 }
 dd
 {
@@ -116,7 +115,8 @@ th,td
 {
     border: 3px solid rgb(13, 155, 25);
 }
-th{
+th
+{
     text-align: center;
     font-size: 1.1em;
     font-weight: bold;
@@ -144,13 +144,6 @@ footer
 {
     color: aqua;
 }
-nav
-{
-    width: 1700px;
-    background-color: blue;
-    margin: auto;
-    margin-top: 0;
-}
 main h2
 {
     padding-left: 1em;
@@ -159,9 +152,22 @@ main p
 {
     padding-left: 1em;
 }
-main h1
+header h1
 {
+    margin: 0px;
+    color: rgb(80, 204, 242);
     padding-left: 1em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+header
+{
+    width: 1800px;
+    background-color: rgba(16, 16, 71, 0.89);
+    margin: auto;
 }
 #B1
 {
@@ -222,4 +228,9 @@ main h1
     margin-left: 2em;
     margin-bottom: 60px;
     margin-right: 3px;
+}
+#P
+{
+    padding-top: 10px;
+    display: block;
 }
