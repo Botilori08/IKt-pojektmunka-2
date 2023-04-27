@@ -147,7 +147,11 @@ footer
 }
 main h2
 {
-    padding-left: 3em;
+    padding-left: 2em;
+}
+main h1
+{
+ padding-left: 1em;
 }
 main p
 {
